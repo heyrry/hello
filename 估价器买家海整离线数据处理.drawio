@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T06:08:39.281Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.1" etag="hWrFvObpJ-7qzs-C10Nz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T06:14:56.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9QMiOE4WB019FjzIxKWi" version="24.5.1" type="github">
   <diagram name="第 1 页" id="y_jGyfgOauPKoaNMHxG2">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr3kx8bcABhM6tfJSJMr-1" target="Hr3kx8bcABhM6tfJSJMr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-1" value="报价变更" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr3kx8bcABhM6tfJSJMr-2" target="Hr3kx8bcABhM6tfJSJMr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-2" value="估价器移除服务商名单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hr3kx8bcABhM6tfJSJMr-3" target="Hr3kx8bcABhM6tfJSJMr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-3" value="估价器新增服务商名单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hr3kx8bcABhM6tfJSJMr-4" target="Hr3kx8bcABhM6tfJSJMr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-4" value="离线表数据更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="200" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr3kx8bcABhM6tfJSJMr-6" value="tair数据更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="300" width="620" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
