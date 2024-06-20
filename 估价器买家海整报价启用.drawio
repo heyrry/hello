@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T10:53:48.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cMXhyoEnD5gtBV2e8Uuw" version="24.5.5" type="github">
+  <diagram name="第 1 页" id="y_jGyfgOauPKoaNMHxG2">
+    <mxGraphModel dx="1045" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="-300" width="646.5" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-4" target="d6Nv9S6F-AtUWMutrWBQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-4" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-6" value="报价版本status置为【已启用】/【已失效】后触发精卫任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-490" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-9" target="d6Nv9S6F-AtUWMutrWBQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-9" target="d6Nv9S6F-AtUWMutrWBQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-9" value="是否epc白名单" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-390" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-11" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-13" target="d6Nv9S6F-AtUWMutrWBQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-13" value="epc离线表数据更新（t_sc_estimator_ocean_fcl_offline_solution）&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-372.5" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-15" target="d6Nv9S6F-AtUWMutrWBQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-15" value="查找该资源对应的版本线路" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-280" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-18" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-20" target="d6Nv9S6F-AtUWMutrWBQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-20" value="按key，组装最新的tair value（从离线表取valid=1的数据），并进行tair数据更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-28" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-102.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-31" value="更新tair缓存及历史线路表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-357.5" width="140" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-36" target="d6Nv9S6F-AtUWMutrWBQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-36" target="d6Nv9S6F-AtUWMutrWBQ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-36" value="是否启用" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="433" y="-182.5" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-38" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-177.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-41" target="d6Nv9S6F-AtUWMutrWBQ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-41" value="按报价版本ID，从离线表找到所有数据&lt;div&gt;（组装key集合&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-55" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-50" value="tair及历史版本线路需要维护最新数据。注意&lt;span style=&quot;background-color: initial;&quot;&gt;对该更新模块按&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;全局&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;加锁；&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="728" y="-310" width="204" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-51" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;【已启用】- 插入该报价版本的模拟询价数据，valid=1，该资源下其他版本数据valid=0&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;【已失效】- 该报价版本数据&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;valid=0&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-440" width="327" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-59" target="d6Nv9S6F-AtUWMutrWBQ-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-59" value="该resourceId历史报价版本集合与该版本key集合取并集，获取全量需要更新的key集合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-55" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-64" target="d6Nv9S6F-AtUWMutrWBQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-64" value="更新该spId对应的版本线路表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="60" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-69" target="d6Nv9S6F-AtUWMutrWBQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d6Nv9S6F-AtUWMutrWBQ-69" target="d6Nv9S6F-AtUWMutrWBQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-69" value="版本线路表的报价版本&lt;div&gt;= 该版本？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="433" y="35" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-71" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d6Nv9S6F-AtUWMutrWBQ-76" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
