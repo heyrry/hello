@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T06:11:10.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ewKkJkF4jZfyAcUYoMT1" version="24.5.5" type="github">
+  <diagram name="第 1 页" id="y_jGyfgOauPKoaNMHxG2">
+    <mxGraphModel dx="1306" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-400" width="570" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-80" width="580" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fPiGpIivbQyJuC3MgnK4-16" target="X5SY3M9Ok3CyjavdbJ3U-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fPiGpIivbQyJuC3MgnK4-16" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="X5SY3M9Ok3CyjavdbJ3U-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-1" value="报价版本status置为【已失效】后触发精卫任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="-490" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="X5SY3M9Ok3CyjavdbJ3U-6" target="X5SY3M9Ok3CyjavdbJ3U-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X5SY3M9Ok3CyjavdbJ3U-6" target="X5SY3M9Ok3CyjavdbJ3U-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-6" value="是否epc白名单" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="195" y="-390" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-10" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="X5SY3M9Ok3CyjavdbJ3U-11" target="X5SY3M9Ok3CyjavdbJ3U-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-11" value="按报价版本ID更新epc离线任务表（&lt;br&gt;t_sc_estimator_ocean_fcl_offline_solution）&lt;div&gt;数据deteled置为1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-372.5" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X5SY3M9Ok3CyjavdbJ3U-13" target="Ky2zlXMDlz1pS1qOl0ft-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5SY3M9Ok3CyjavdbJ3U-13" value="按报价版本ID，从离线表找到所有数据&lt;div&gt;（组装key集合&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-270" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGtaCe03P2AikSylOjmR-1" target="Ky2zlXMDlz1pS1qOl0ft-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGtaCe03P2AikSylOjmR-1" value="查找该spId对应的版本线路表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-60" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-1" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ky2zlXMDlz1pS1qOl0ft-2" target="PGtaCe03P2AikSylOjmR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-2" value="按key，组装最新的tair value（epc各个服务商最新报价有效数据），并进行key更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-170" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-3" value="注意一定针对各个服务商，取最新报价有效数据。考虑到新版本启用精卫先触发，epc可能会同时存在2个版本的有效数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-300" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ky2zlXMDlz1pS1qOl0ft-8" target="Ky2zlXMDlz1pS1qOl0ft-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ky2zlXMDlz1pS1qOl0ft-8" target="Ky2zlXMDlz1pS1qOl0ft-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-8" value="版本ID &amp;gt; 更新版本？" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="473" y="38" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="448" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ky2zlXMDlz1pS1qOl0ft-12" target="Ky2zlXMDlz1pS1qOl0ft-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-12" value="最新版本的key集合，更新该spId对应的版本线路表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="55.5" width="236" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-16" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="132" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-17" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-18" value="注意版本线路表一定要维护最新报价版本的key集合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-25" value="更新epc离线表及tair缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky2zlXMDlz1pS1qOl0ft-26" value="更新版本线路表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="85" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
