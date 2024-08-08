@@ -19,7 +19,7 @@
         <mxCell id="hByDfbpF1siI-fQXKtIW-5" value="&lt;div&gt;1. 制定&amp;nbsp;&lt;span style=&quot;background-color: initial; font-family: -webkit-standard; caret-color: rgb(0, 0, 0);&quot;&gt;安全生产规范 并执行。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;2. 用例完善并稳定运行，形成一套稳定的计费巡检体系。&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="120" width="170" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="hByDfbpF1siI-fQXKtIW-6" value="&lt;span style=&quot;&quot;&gt;1. 业务配置接入计费巡检体系&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 代码发布接入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;计费巡检体系&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="hByDfbpF1siI-fQXKtIW-6" value="&lt;span style=&quot;&quot;&gt;1. 业务配置接入流量回放sop&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;2. 代码发布接入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;计费巡检体系&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="120" width="170" height="230" as="geometry" />
         </mxCell>
         <mxCell id="hByDfbpF1siI-fQXKtIW-7" value="1. 维护一个稳定、全面的计费单测体系。&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;labelBackgroundColor=none;" parent="1" vertex="1">
